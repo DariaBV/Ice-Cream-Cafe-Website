@@ -12,15 +12,20 @@
 
 .card-desserts {
     background: url(../img/desserts.png) 52.6% 32.25% / cover no-repeat;
-    height: 460px;
 }
 
 .card-milk-shakes {
     background: url(../img/milk-shakes.png) 50.1% 62.75% / cover no-repeat;
-    height: 460px;
 }
 
 .card-ice-cream {
     background: url(../img/ice-cream.png) 58.23% 61.54% / cover no-repeat;
+}
+
+.card-desserts,
+.card-milk-shakes,
+.card-ice-cream {
     height: 460px;
+    /* padding: 0 15px; */
+    border: lightgreen solid 1px;
 }
