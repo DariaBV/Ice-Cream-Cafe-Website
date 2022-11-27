@@ -31,30 +31,6 @@
     --outline-active-color:#3B99FC;
     --color-bg-buttons-light: rgba(31, 26, 26, 0.22);
     scroll-behavior: smooth;
-
-    /* font-family: 'Open Sans', sans-serif;
-    --color-main: rgb(73, 59, 95);
-    --color-text-light: #fff;
-    --color-dark: #32264b;
-    --color-secondary: #b87390;
-    --color-main-hover: #D5990A;
-    --color-accent: #F82764;
-    --color-promo-section-bg: #F5F1EF;
-    --color-text-on-dark: rgba(182, 182, 182, 1);
-    --color-text-on-light: #616470;
-    --color-month-title-on-light: rgba(97,100,112,0.55);
-    --color-contact-us: rgb(97,100,112);
-    --color-date-title: #619ec25f;
-    --color-date-title-hover: #5d97b8;
-    --color-bg-light: #fff;
-    --color-bg-section: #F7F7F7;
-    --color-bg-dark: #000;
-    --color-month-title-on-dark: rgba(247, 247, 247, 0.59);
-    --outline-form-color: rgba(34, 34, 34, 0.12);
-    --form-bg-color: #F7F7F7;
-    --outline-active-color: #3B99FC;
-    --color-bg-buttons-light: rgba(31, 26, 26, 0.22);
-    scroll-behavior: smooth; */
 }
 
 /* .container {
