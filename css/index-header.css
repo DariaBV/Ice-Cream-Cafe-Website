@@ -6,10 +6,10 @@
 }
 
 .header__menu {
-   display: flex;
-   padding: 30px 15px;
-   /* margin: 0 30px; */
-   justify-content: space-between;
+    display: flex;
+    padding: 30px 15px;
+    /* margin: 0 30px; */
+    justify-content: space-between;
 }
 
 .header__nav-left-section,
@@ -22,9 +22,11 @@
 .header__nav-left-section {
     justify-content: flex-start;
 }
+
 .header__nav-center-section {
     justify-content: center;
 }
+
 .header__nav-right-section {
     justify-content: flex-end;
 }
@@ -60,11 +62,11 @@ h1 {
 }
 
 .title__content {
-    color: rgb(225,221,232);
+    color: rgb(225, 221, 232);
     margin-top: 40px;
     font-size: 20px;
     line-height: 1.5;
-    font-family: Source Sans 3,sans-serif;
+    font-family: Source Sans 3, sans-serif;
     font-weight: 500;
     letter-spacing: .02em;
 }
@@ -85,7 +87,6 @@ h1 {
     margin: 10px;
     border-radius: 32px;
     line-height: 1.38em;
-    letter-spacing: 0;
     letter-spacing: .03em;
     font-family: Source Sans Pro, sans-serif;
     /* transition: color .2s ease-in, background-color .2s ease-in,border-color .2s ease-in,box-shadow .2s ease-in,-webkit-box-shadow .2s ease-in; */
@@ -97,7 +98,8 @@ a {
 
 .button__main-bg {
     background-color: #ffc452;
-} 
+}
+
 .button__main-bg:hover {
     background-color: #eab754;
     cursor: pointer;
@@ -107,11 +109,12 @@ a {
     /* background-color: var( --color-main-hover); */
     background-color: #32264b;
 }
+
 .button__second-bg:hover {
     background-color: #a55376;
     cursor: pointer;
-    border: 2px solid var(--color-text-light);
 }
+
 /* .line-under-item {
     content: "";
     position: absolute;
@@ -128,28 +131,35 @@ a {
         flex-direction: row;
     }
 }
+
 @media (min-width: 768px) {
 
     h1 {
         font-size: 69px;
     }
+
     .header__title {
         padding: 190px 0 165px;
     }
+
     .header__button {
         flex-direction: row;
     }
+
     .title__text {
         font-size: 17px;
     }
 }
+
 @media (min-width: 991px) {
     h1 {
         font-size: 80px;
     }
+
     .title__text {
         font-size: 21px;
     }
+
     .header__title {
         padding: 250px 0 220px;
     }

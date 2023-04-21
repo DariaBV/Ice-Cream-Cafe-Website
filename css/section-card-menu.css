@@ -1,15 +1,24 @@
+h2 {
+    font-size: 36px;
+    font-family: Dangrek, cursive;
+}
+
 .card__menu {
     background-color: var(--color-main);
     display: flex;
     flex-direction: column;
     color: var(--color-text-light);
     height: 585px;
-    padding: 65px 0 60px;
+    padding: 65px 25px 60px;
 }
 
 .card__menu-item {
     flex-basis: 33.3%;
     padding: 0 15px;
+
+    height: 460px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px 7px rgba(136, 140, 133, .05);
 }
 
 .card-desserts {
@@ -28,8 +37,25 @@
 .card-milk-shakes,
 .card-ice-cream {
     height: 460px;
-    /* padding: 0 15px; */
-    border: lightgreen solid 1px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px 7px rgba(136, 140, 133, .05);
+    padding: 30px;
+    text-align: center;
+}
+
+.button__card-bg {
+    background-color: #a55376;
+    cursor: pointer;
+}
+
+.button__card-bg:hover {
+    background-color:  rgb(73, 59, 95);
+    /* cursor: pointer; */
+}
+
+.button__card-menu {
+    margin-top: 40px;
+    width: max-content;
 }
 
 @media (min-width: 768px) {
@@ -38,3 +64,7 @@
         flex-direction: row;
     }
 }
+
+/* 
+    border-width: 2px;
+    border-radius: 27px; */
